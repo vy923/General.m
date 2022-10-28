@@ -1,6 +1,7 @@
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeTextAny(A) [argument validation]
+%
 %       See also: isTextAny
 %
 %   VERSION

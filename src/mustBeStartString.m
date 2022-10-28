@@ -1,8 +1,8 @@
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeStartString(A,B) [argument validation]
-%
 %       All elements of A must be starting substrings of some elements of B (case insensitive)
+%
 %       See also: isSubstring, mustBeTextAny
 %
 %   VERSION

@@ -1,8 +1,8 @@
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeSubstring(A,B) [argument validation]
-%
 %       All elements of A must be substrings of some elements of B (case insensitive)
+%
 %       See also: mustBeTextAny, isSubstring
 %
 %   VERSION

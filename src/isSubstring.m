@@ -1,8 +1,8 @@
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       isSubstring(A,B,opts)
-%
 %       Finds elements of B containing as substrings any elements of A
+%
 %       See also: mustBeTextAny 
 %
 %   OUTPUTS
@@ -17,9 +17,9 @@ function mask = isSubstring(A,B,opts)
 arguments
     A {mustBeTextAny}
     B {mustBeTextAny}
-    opts.match      {mustBeMember(opts.match,{'start','end','any'})} = 'any'
+    opts.match {mustBeMember(opts.match,{'start','end','any'})} = 'any'
     opts.ignoreCase {mustBeMember(opts.ignoreCase,[0 1])} = true
-    opts.matchCond  {mustBeMember(opts.matchCond,{'any','all',''})} = ''
+    opts.matchCond {mustBeMember(opts.matchCond,{'any','all',''})} = ''
 end
 A = string(A);
 B = string(B);

@@ -1,13 +1,12 @@
+function mustBeScalarOrES(a,b)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeScalarOrES(A,B) [argument validation]
-%       First argument must be a scalar or the same size as the second
+%       A must be a scalar or equal size as B
 %
 %   VERSION
-%       v1.0 / 30.10.22 / V.Yotov
+%   v1.0 / 30.10.22 / V.Y.
 %  ------------------------------------------------------------------------------------------------
-
-function mustBeScalarOrES(a,b)
 
 if ~isscalar(a) && ~isequal(size(a),size(b))
     throwAsCaller(MException('','validators:mustBeScalarOrES'))

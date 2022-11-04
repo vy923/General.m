@@ -1,3 +1,4 @@
+function mustBeEqualDims(A,B,dims)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeEqualDims(A,B,dims) [argument validation]
@@ -6,10 +7,8 @@
 %       default is dims=[], equivalent to A and B having equal size
 %
 %   VERSION
-%       v1.0 / 27.06.22 / V.Yotov
+%   v1.0 / 27.06.22 / V.Y.
 %  ------------------------------------------------------------------------------------------------
-
-function mustBeEqualDims(A,B,dims)
 
 arguments 
     A

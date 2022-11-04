@@ -1,3 +1,4 @@
+function C = isTextAny(A)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       C = isTextAny(A) 
@@ -6,14 +7,13 @@
 %       Strings in cell arrays also return TRUE
 %                        
 %   VERSION
-%       v1.0 / 24.06.22 / V.Yotov
+%   v1.1 / 04.11.22 / --    optimised
+%   v1.0 / 24.06.22 / V.Y.
 %  ------------------------------------------------------------------------------------------------
-
-function C = isTextAny(A)
 
 if iscell(A)
     C = cellfun(@class,A,'UniformOutput',false);
-else
-    C = class(A);
+    C = all(ismember(string(C),["char" "string"]), 'all');
+else 
+    C = all(isa(A,'char')|isa(A,'string'), 'all');
 end
-C = all(ismember(string(C),["char" "string"]),'all');

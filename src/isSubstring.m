@@ -1,3 +1,4 @@
+function mask = isSubstring(A,B,opts)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       isSubstring(A,B,opts)
@@ -9,10 +10,8 @@
 %       boolean array of dimension size(B)  
 %
 %   VERSION
-%       v1.0 / 24.06.22 / V.Yotov
+%   v1.0 / 24.06.22 / V.Y.
 %  ------------------------------------------------------------------------------------------------
-
-function mask = isSubstring(A,B,opts)
 
 arguments
     A {mustBeTextAny}

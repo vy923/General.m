@@ -1,3 +1,4 @@
+function mustBeStartString(A,B)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeStartString(A,B) [argument validation]
@@ -6,10 +7,8 @@
 %       See also: isSubstring, mustBeTextAny
 %
 %   VERSION
-%       v1.0 / 24.06.22 / V.Yotov
+%   v1.0 / 24.06.22 / V.Y.
 %  ------------------------------------------------------------------------------------------------
-
-function mustBeStartString(A,B)
 
 arguments 
     A {mustBeTextAny}

@@ -1,13 +1,12 @@
+function mustBeEqualSize(a,b)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeEqualSize(A) [argument validation]
 %
 %   VERSION
-%       v1.1 / 25.06.22 / V.Yotov
-%       -- / -- / mathworks.com
+%   v1.1 / 25.06.22 / V.Y.
+%   -- / -- / mathworks.com
 %  ------------------------------------------------------------------------------------------------
-
-function mustBeEqualSize(a,b)
 
 if ~isequal(size(a),size(b))
     throwAsCaller(MException('','validators:mustBeEqualSize'))

@@ -1,3 +1,4 @@
+function mustBeSubstring(A,B)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeSubstring(A,B) [argument validation]
@@ -6,10 +7,8 @@
 %       See also: mustBeTextAny, isSubstring
 %
 %   VERSION
-%       v1.0 / 24.06.22 / V.Yotov
+%   v1.0 / 24.06.22 / V.Y.
 %  ------------------------------------------------------------------------------------------------
-
-function mustBeSubstring(A,B)
 
 arguments 
     A {mustBeTextAny}

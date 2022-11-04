@@ -1,3 +1,4 @@
+function mustBeOfSize(A,sz,dims)
 %  ------------------------------------------------------------------------------------------------
 %   DESCRIPTION
 %       mustBeOfSize(A,sz,dims) [argument validation]
@@ -13,10 +14,8 @@
 %       dims        integer array, default = 1
 %
 %   VERSION
-%       v1.0 / 21.10.22 / V.Yotov
+%   v1.0 / 21.10.22 / V.Y.
 %  ------------------------------------------------------------------------------------------------
-
-function mustBeOfSize(A,sz,dims)
 
 arguments
     A
